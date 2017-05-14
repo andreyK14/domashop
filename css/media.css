@@ -1,0 +1,368 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.site_logo {
+		margin-bottom: 12px;
+
+	}
+	.slide_title {
+		font-size: 26px;
+	}
+	.slide_descr {
+		font-size: 18px;
+	}
+	.site_logo_descr {
+		text-align: left;
+        margin: 26px 0px 0px;
+	}
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 800px) {
+	.menu .main_mnu_btn a {
+		padding: 6px;
+		font-size: 13px;	
+	}
+	.menu .icon {
+		margin-left: 0px;
+		margin-top: 12px;
+		margin-right: 3px;
+	}
+	.offer_tours .tour {
+		width: 60%;
+	}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.border_img {
+		display: none;
+	}
+
+	.site_offices_inner {
+		width: 245px;
+		margin: auto;
+		margin-top: 10px;
+	}
+
+	.top_head .where_travel .where_travel_container {
+		padding-left: 22px;
+		margin-top: 9px;
+		margin-left: 145px;
+	}
+	.site_phone {
+		text-align: center;
+	}
+
+	.site_phone_inner {
+		display: inline-block;
+		margin-right: 10px;
+
+	}
+
+	.menu_wrap .main_menu_container {
+		display: none;
+	}
+
+	.menu_wrap {
+		padding: 0;
+		background: #121212;
+		background: -webkit-gradient(linear, left top, left bottom, from(#272727), to(#0B0B0B));
+	    background: -moz-linear-gradient(top, #272727, #0B0B0B);
+
+	}
+
+	.menu_wrap .menu {
+		position: absolute;
+		width: 50%;
+		padding-top: 12px;
+		margin: 0;
+		background-color: #272727;
+	}
+
+	.menu_wrap {
+		text-align: left !important;
+	}
+
+	.menu_wrap li:hover {
+	  background: none;
+	}
+
+	.menu_wrap .menu .main_mnu_btn a {
+		text-transform: none !important;
+		color: #fff;
+	}
+
+	.menu_wrap .menu .main_mnu_btn a:hover {
+		text-decoration: underline;
+	}
+
+	.menu_wrap li.active {
+	  background: none !important;
+	}
+
+	.menu_wrap .main_mnu_btn.active a {
+	  background: none !important;
+	  color: #03ADDB !important;
+	}
+
+	.menu_wrap .main_mnu_btn.active a {
+	  background: none !important;
+	  color: #03ADDB !important;
+	}
+
+	.menu_wrap .main_mnu_btn .sub_mnu a {
+	  color: #fff !important;
+	}
+
+	.main_mnu_navbar {
+		display: block !important;
+	}
+
+	.menu .main_mnu_btn {
+		float: none !important; 
+		background: none !important;
+		font-size: 13px;
+		margin-bottom: 6px !important;
+		margin-right: 0;
+	}
+
+	.menu .icon {
+		display: none;
+	}
+	
+	.menu .icon,
+	.main_mnu_btn:hover .icon {
+		background: none;
+		padding-top: 0px;
+	}
+	.menu .icon:hover {
+		background: none;
+
+	}
+
+	.menu_wrap .menu .sub_mnu {
+		display: block !important;
+		opacity: 1;
+	  	visibility: visible;
+	 	position: static !important;
+	  	z-index: 1;
+		background: none;
+		transition: none;
+		margin-top: 0;
+	}
+
+	.sub_mnu .sub_mnu_btn {	
+		font-size: 10px !important;
+		border-bottom: none;
+		margin-left: 10px;
+	}
+
+	.sub_mnu .sub_mnu_btn a {	
+		font-size: 10px !important;
+	}
+
+	.sub_mnu .sub_mnu_btn a {
+		padding: 5px 10px;
+	}
+
+	.main_mnu_btn a {
+		float: none;
+	}
+	.slide_title {
+		font-size: 20px;
+	}
+	.slide_descr {
+		margin-top: 20px;
+		font-size: 15px;
+	}
+	.tour .tour_content {
+		padding: 8px 23px;
+	}
+	.service_build,
+	.service_projection {
+		width: 98%;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+	.service_projection {
+		float: left;
+		margin-top: 7px;
+	}
+
+	.tour {
+	  width: 95%;
+	  min-width: 220px;
+	  margin: 1px 3px 3px 13px;
+	}
+
+	.more_offer .call_block {
+		width: 100%;
+	}
+	
+	.step_work {
+		width: 49%;
+	}
+	.cat_descr {
+		width: 96%;
+	}
+	.cat_descr p {
+  		margin-top: 5px;
+	}
+	.contact_box {
+	  margin-bottom: 0;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 675px) {
+	.top_head .where_travel .where_travel_container {
+		margin-left: 60px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 555px) {
+	.top_head .where_travel {
+		text-align: left;
+	}
+	.top_head .where_travel .where_travel_container {
+		margin-left: 0px;
+	}
+	.top_head .site_phone {
+		text-align: right;
+	}
+	.where_travel, 
+	.site_phone, 
+	.site_offices {
+	    font-size: 12px;
+	}
+	.where_travel_descr, .site_phone_descr, .site_offices_descr {
+	    font-size: 15px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.where_travel,
+	.site_phone,
+	.site_offices {
+		float: none;
+		margin-top: 7px;
+		width: 100%;
+	}
+	.site_offices_inner {
+		margin: 0;
+	}
+
+	.site_phone_inner {
+		margin-top: 10px;
+	}
+
+	.offer_tours .tour {
+		height: auto;
+		margin-bottom: 15px;
+	}
+
+	.offer_tours .tour_img img,
+	.offer_tours .tour_content,
+	.offer_tours .tour_slide {
+		height: 125px;
+	}
+
+	.offer_tours .tour_slide {
+		display: none;
+	}
+
+	.offer_tours .tour_content {
+		padding: 10px 23px;
+
+	}
+	.offer_tours .tour .tour_title {
+		margin-top: 9px;
+		font-size: 16px;
+
+	}
+	.offer_tours .tour .tour_descr {
+		margin-top: 5px;
+		font-size: 14px;
+	}
+	.offer_tours .tour .tour_price {
+		font-size: 13px;
+	}
+	.offer_tours .tour .tour_slide {
+		padding: 0px 20px;
+	}
+	.offer_tours .tour .tour_slide_title {
+		margin-top: 8px;
+		margin-bottom: 7px;
+	}
+	.offer_tours .tour,
+	.offer_tours .tour_img,
+	.offer_tours .tour_content {
+		float: none;
+		width: 55%;
+	}
+	.gallery_header img {
+		min-height: 220px;
+	}
+	.slide_descr {
+		display: none;
+	}
+	.sec_offer_tours .tour {
+		min-width: 0;
+		width: 97%;
+		margin: 1px 1px 9px 6px;
+	}
+	.tour_content .tour_title {
+		font-size: 15px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.main_mnu_navbar {
+		display: none !important;
+	}
+	.main_menu_container {
+		display: block !important;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
